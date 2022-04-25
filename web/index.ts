@@ -363,7 +363,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
                         label: `Add Image ${images.length + 1}`,
                         onclick: () => {
                             const nextImage = images.length === 1
-                                ? 'https://cdn.jsdelivr.net/gh/remojansen/logo.ts@master/ts.svg'
+                                ? 'https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png'
                                 : '';
                             setLoadingState({ images: [...images, nextImage] })
                         }
